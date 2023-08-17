@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tute4",
+    "section": "",
+    "text": "Tute4\n\n\n\n\n\n\n\n\n\n\n\n\nSuyue Wang\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nAug 17, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/hot-ones-post/index.html",
+    "href": "posts/hot-ones-post/index.html",
+    "title": "Tute4",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "posts/hot-ones-post/index.html#quarto",
+    "href": "posts/hot-ones-post/index.html#quarto",
+    "title": "Tute4",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "posts/hot-ones-post/index.html#running-code",
+    "href": "posts/hot-ones-post/index.html#running-code",
+    "title": "Tute4",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed).\n\n#read in the data\nmilkcow &lt;- read.csv(\"milkcow_facts.csv\")\nlibrary(ggplot2)\n\n\nhead(milkcow)\n\n  year avg_milk_cow_number milk_per_cow milk_production_lbs avg_price_milk\n1 1980            10799000        11891         1.28406e+11          0.130\n2 1981            10898000        12183         1.32770e+11          0.138\n3 1982            11011000        12306         1.35505e+11          0.136\n4 1983            11059000        12622         1.39588e+11          0.136\n5 1984            10793000        12541         1.35351e+11          0.135\n6 1985            10981000        13024         1.43012e+11          0.127\n  dairy_ration milk_feed_price_ratio milk_cow_cost_per_animal\n1   0.04837357              2.717149                     1190\n2   0.05035243              2.759031                     1200\n3   0.04422102              3.088127                     1110\n4   0.05235034              2.609620                     1030\n5   0.05338787              2.540000                      895\n6   0.04500458              2.840000                      860\n  milk_volume_to_buy_cow_in_lbs alfalfa_hay_price slaughter_cow_price\n1                      9153.846          72.00000              0.4573\n2                      8695.652          70.90000              0.4193\n3                      8161.765          72.73333              0.3996\n4                      7573.529          78.70000              0.3935\n5                      6629.630          79.48333              0.3981\n6                      6771.654          73.67500              0.3831\n\n\n\nmilkcow |&gt;\n  ggplot(aes(x=year, y=avg_milk_cow_number))+\n  geom_line()\n\n\n\n\n\nmilkcow |&gt;\n  ggplot(aes(x=year, y=avg_price_milk))+\n  geom_line()"
+  }
+]
